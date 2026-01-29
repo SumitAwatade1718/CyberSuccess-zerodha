@@ -1,9 +1,155 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-header{
-    border: 2px solid red;
-    height: 35px;
+
+body {
+  font-family: Arial;
 }
+
+/* --------------- header start --------------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 140px;
+  height: 56px;
+  align-items: center;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.header img {
+  width: 132px;
+}
+
+.header-right {
+  display: flex;
+  gap: 32px;
+}
+
+.header-right a {
+  text-decoration: none;
+  color: #666;
+  font-family: Arial;
+}
+
+/* --------------- header end --------------- */
+
+/* --------------- hero section start --------------- */
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #424242;
+}
+.hero-section img {
+  width: 560px;
+  margin: 52px 0;
+}
+
+.hero-section h1 {
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  margin-bottom: 20px;
+}
+
+.hero-section a {
+  text-decoration: none;
+  background-color: #387ed1;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+/* --------------- hero section end --------------- */
+
+/* --------------- trust section start --------------- */
+.trust-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 140px;
+  margin-top: 100px;
+}
+
+.trust-section a {
+  color: #387ed1;
+  text-decoration: none;
+}
+
+.trust-right img {
+  width: 540px;
+}
+
+.trust-left h2 {
+  padding-bottom: 40px;
+}
+
+.trust-left h3 {
+  margin-bottom: 12px;
+}
+
+.trust-left p {
+  margin-bottom: 36px;
+}
+
+.trust-right {
+  text-align: center;
+}
+
+.products-link {
+  margin-right: 40px;
+}
+
+/* ---------------  trust section end --------------- */
+
+/* --------------- news channels section start --------------- */
+
+.news-channels {
+  margin: 60px 0;
+  text-align: center;
+}
+
+/* --------------- news channels section end --------------- */
+
+/* ----------------- pricing section start -----------------   */
+
+.price-section {
+  display: flex;
+  padding: 50px 140px;
+  gap: 40px;
+}
+
+.price-section-left p {
+  margin: 24px 0;
+  width: 400px;
+}
+
+.price-section a {
+  color: #387ed1;
+  text-decoration: none;
+}
+
+.price-section-right {
+  display: flex;
+}
+
+.price-section-right img {
+  width: 108px;
+}
+
+.price-section-right div {
+  display: flex;
+}
+
+.price-section-right div p {
+  margin-top: 60px;
+}
+
+.price-section-right {
+  font-size: 8px;
+}
+
+/* ----------------- pricing section end -----------------   */
